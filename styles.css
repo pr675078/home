@@ -69,7 +69,27 @@ body{
     font-weight: 1000;
     margin: 0;
 }
+.signup{
+    border: 0.5px solid black;
+    font-family: "Sansation", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    width: 90px;
+    height:30px;
+    border-radius: 25px;
+    letter-spacing: 3%;
+    background-color: transparent;
+    margin: 20px;
+}
 
+.signup:hover{
+background-color:#0b99ff;
+border: 1px solid #fff;
+color:#fff;
+
+}
 /* ==========responsive nav============ */
 
 @media (max-width: 768px) {
@@ -92,9 +112,16 @@ body{
 
 @media (max-width: 480px) {
     .title {
-        left: 55%; 
+        left: 50%; 
         transform: translateX(-50%);
         width: 80%; 
+       letter-spacing: clamp(3px, 1vw, 5px);
+    }
+   .logo img{
+        margin:-10px;
+    }
+    .signup{
+        margin-left:20px;
     }
 }
 .hamburger {
@@ -418,6 +445,7 @@ margin-top: 0;
         border-radius: 25px;
     }
 }
+
 
 
 
