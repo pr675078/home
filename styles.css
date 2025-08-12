@@ -22,7 +22,7 @@ body{
     background-image: url("bg.jpg");
     background-attachment: fixed;
     background-repeat:no-repeat;
-    
+    padding-top:60px;
 }
 
 /* ==========nav================= */
@@ -35,7 +35,7 @@ body{
     height: 60px;
    padding:0 15px;
     align-items: center;
-    position: relative;
+    position: fixed;
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.76);
 }
 
@@ -448,6 +448,7 @@ margin-top: 0;
         border-radius: 25px;
     }
 }
+
 
 
 
