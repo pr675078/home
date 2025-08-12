@@ -313,7 +313,7 @@ margin-top: 0;
 /*     background: linear-gradient(45deg, #E7F122, #25C6DF, #E7F122, #25C6DF); */
     background-size: 300% 300%;
     z-index: -2;
-    animation: borderLoop 5s linear infinite;
+    animation: borderLoop 3s linear infinite;
 }
 
 @keyframes borderLoop {
@@ -462,6 +462,7 @@ margin-top: 0;
         border-radius: 25px;
     }
 }
+
 
 
 
