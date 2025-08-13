@@ -309,7 +309,7 @@ margin-top: 0;
     right: -1px;
     bottom: -1px;
     border-radius: 25px;
-    background: linear-gradient(45deg, #933EFF, #3E74FF, #933EFF, #3E74FF);
+    background: linear-gradient(45deg, #933EFF, #26c8fd, #933EFF, #26c8fd);
 /*     background: linear-gradient(45deg, #E7F122, #25C6DF, #E7F122, #25C6DF); */
     background-size: 300% 300%;
     z-index: -2;
@@ -462,6 +462,7 @@ margin-top: 0;
         border-radius: 25px;
     }
 }
+
 
 
 
