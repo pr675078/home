@@ -111,7 +111,7 @@ color:#fff;
     .logo img {
         width: 50px;
         height: 40px;
-        margin: 5px;
+        margin: -5px;
     }
     
     .title {
@@ -126,7 +126,7 @@ color:#fff;
         height: 40px;
     }
     .title {
-        left: 50%; 
+        left: 47%; 
         transform: translateX(-50%);
         width: 80%; 
        letter-spacing: clamp(3px, 1vw, 5px);
@@ -462,6 +462,7 @@ margin-top: 0;
         border-radius: 25px;
     }
 }
+
 
 
 
